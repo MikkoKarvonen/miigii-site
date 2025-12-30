@@ -14,7 +14,6 @@ export const releases: Release[] = [
             { platform: 'Bandcamp', url: 'https://miigii.bandcamp.com/album/midnight-dreams' },
             { platform: 'YouTube Music', url: 'https://music.youtube.com/playlist?list=example' },
         ],
-        characterIds: ['char1', 'char2'],
     }, {
         id: '206',
         title: 'Mia and the Pre Drops',
@@ -25,6 +24,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1B8bhEqqHl6Yk2JT0ePg0D' },
         ],
+        characterIds: ['char01', 'char02', 'char03', 'char09', 'char10', 'char11', 'char12', 'char13', 'char14', 'char15'],
     },
     {
         id: '205',
@@ -47,6 +47,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/75vq673T0INsvvo4h2mtLd' },
         ],
+        characterIds: ['char01', 'char02', 'char03'],
     },
     {
         id: '203',
@@ -58,6 +59,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3XGd8NlOc8Z4xSQx5Zg68x' },
         ],
+        characterIds: ['char01', 'char02', 'char03', 'char04', 'char05', 'char06', 'char07', 'char08', 'char09'],
     },
     {
         id: '202',
@@ -267,6 +269,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/02TqpGP1wjjAM3YwHbaF11' },
         ],
+        characterIds: ['char01', 'char02', 'char03', 'char09', 'char10']
     },
     {
         id: '039',
@@ -278,6 +281,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0Vj5x1a6TWj4AiDoV9xrDw' },
         ],
+        characterIds: ['char10']
     },
     {
         id: '038',
@@ -289,6 +293,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/63PjjU5bJ9Cmaukvkka4aU' },
         ],
+        characterIds: ['char01', 'char02']
     },
     {
         id: '137',
@@ -300,6 +305,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0rwi1XXwNvxrfcAIoIcOVn' },
         ],
+        characterIds: ['char01', 'char02', 'char03']
     },
     {
         id: '036',
@@ -311,6 +317,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/70CmmoNro3YEmsGhsemiG4' },
         ],
+        characterIds: ['char01', 'char02']
     },
     {
         id: '035',
@@ -734,22 +741,100 @@ export const releases: Release[] = [
 
 export const characters: Character[] = [
     {
-        id: '0char1',
+        id: 'char01',
         name: 'Mia',
         description: 'Mia, a character who embodies a sleek, "modern-cool" aesthetic with a bit of a futuristic edge. Mia’s style is streamlined, mixing streetwear comfort with sharp, intentional details.',
         image: '/characters/main/Mia.jpg',
     },
     {
-        id: '0char2',
+        id: 'char02',
         name: 'Peppi',
         description: 'Peppi likely has a personality as sharp as her fashion sense. She’s the type of character who is effortlessly cool but possesses a quirky, confident charm—never afraid to mix textures, colors, and eras to create a look that is uniquely her own.',
         image: '/characters/main/Peppi.jpg',
     },
     {
-        id: '0char3',
+        id: 'char03',
         name: 'Aki',
         description: 'Aki possesses a quiet, contemplative confidence and likely values quality and longevity in his choices. While the others might jump into the latest digital trends, Aki is the one analyzing the situation, offering a steady hand and a discerning eye.',
         image: '/characters/main/Aki.jpg',
+    },
+    {
+        id: 'char04',
+        name: 'Unicorn Slayers United (USU)',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/Usu.jpg',
+    },
+    {
+        id: 'char05',
+        name: 'EmOhAreAreEyeEss',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/EmOhAreAreEyeEss.jpg',
+    },
+    {
+        id: 'char06',
+        name: 'Peppermint Ivory',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/Peppermint Ivory.jpg',
+    },
+    {
+        id: 'char07',
+        name: 'Wilbur Macdonald',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/Wilbur Macdonald.jpg',
+    },
+    {
+        id: 'char08',
+        name: 'Dashing Purple One',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/Dashing Purple One.jpg',
+    },
+    {
+        id: 'char09',
+        name: 'Mr. Y',
+        description: 'Guest of Peppi and the Pre Drops.',
+        image: '/characters/main/Mr. Y.jpg',
+    },
+    {
+        id: 'char10',
+        name: 'ANNABXLLA',
+        description: 'Guest of Peppi and the Pre Drops Vol 2.',
+        image: '/characters/main/ANNABXLLA.jpg',
+    },
+    {
+        id: 'char11',
+        name: 'Kinship Duo',
+        description: 'Guest of Mia and the Pre Drops.',
+        image: '/null.jpg',
+    },
+    {
+        id: 'char12',
+        name: 'Zakres',
+        description: 'Guest of Mia and the Pre Drops.',
+        image: '/null.jpg',
+    },
+    {
+        id: 'char13',
+        name: 'Pipery Venom Trip',
+        description: 'Guest of Mia and the Pre Drops.',
+        image: '/null.jpg',
+    },
+    {
+        id: 'char14',
+        name: 'Flux Echo',
+        description: 'Guest of Mia and the Pre Drops.',
+        image: '/null.jpg',
+    },
+    {
+        id: 'char15',
+        name: 'Femmetech',
+        description: 'Guest of Mia and the Pre Drops.',
+        image: '/null.jpg',
+    },
+    {
+        id: 'char16',
+        name: '?',
+        description: '?',
+        image: '/characters/main/qm.jpg',
     },
 ];
 

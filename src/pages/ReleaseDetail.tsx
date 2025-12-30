@@ -94,7 +94,8 @@ export default function ReleaseDetail() {
                                                 <img
                                                     src={character.image}
                                                     alt={character.name}
-                                                    className="w-full h-32 object-cover"
+                                                    className="w-32 h-32 object-cover mx-auto rounded"
+                                                    style={{ aspectRatio: "1 / 1", objectPosition: 'top' }}
                                                 />
                                             </figure>
                                             <div className="card-body p-4">

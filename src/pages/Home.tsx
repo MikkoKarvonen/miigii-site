@@ -10,9 +10,15 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-base-200">
             {/* Hero Section */}
-            <div className="hero bg-base-300 py-16">
+            <div className="hero bg-base-600 h-150"
+                style={{
+                    backgroundImage:
+                        "url(/general/header.jpg)",
+                    backgroundPosition: "top"
+                }}>
+                <div className="hero-overlay"></div>
                 <div className="hero-content text-center">
-                    <div className="max-w-md">
+                    <div className="max-w-md text-white">
                         <h1 className="text-5xl font-bold mb-4">Miigii</h1>
                         <p className="text-lg opacity-70">Electronic Music Artist</p>
                     </div>
