@@ -10,5 +10,8 @@ module.exports = {
     extend: {},
   },
   plugins: [daisyui.default || daisyui],
+  daisyui: {
+    themes: ["luxury"],
+  },
 }
 
