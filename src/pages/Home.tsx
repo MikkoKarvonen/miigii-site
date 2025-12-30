@@ -28,7 +28,7 @@ export default function Home() {
                     {albums.length > 0 && (
                         <div className="mb-8">
                             <h3 className="text-2xl font-semibold mb-4">Albums</h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {albums.map(release => (
                                     <ReleaseCard key={release.id} release={release} />
                                 ))}
@@ -40,7 +40,7 @@ export default function Home() {
                     {eps.length > 0 && (
                         <div className="mb-8">
                             <h3 className="text-2xl font-semibold mb-4">EPs</h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {eps.map(release => (
                                     <ReleaseCard key={release.id} release={release} />
                                 ))}
@@ -52,7 +52,7 @@ export default function Home() {
                     {singles.length > 0 && (
                         <div className="mb-8">
                             <h3 className="text-2xl font-semibold mb-4">Singles</h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {singles.map(release => (
                                     <ReleaseCard key={release.id} release={release} />
                                 ))}
@@ -64,7 +64,7 @@ export default function Home() {
                 {/* Characters Section */}
                 <section>
                     <h2 className="text-3xl font-bold mb-6">Characters</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                         {characters.map(character => (
                             <CharacterCard key={character.id} character={character} />
                         ))}

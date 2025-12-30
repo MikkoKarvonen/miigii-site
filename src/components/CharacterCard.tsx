@@ -6,13 +6,18 @@ interface CharacterCardProps {
 
 export default function CharacterCard({ character }: CharacterCardProps) {
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card card-sm bg-base-100 shadow-xl">
             <figure>
-                <img src={character.image} alt={character.name} className="w-full h-64 object-cover" />
+                <img
+                    src={character.image}
+                    alt={character.name}
+                    className="w-full aspect-square object-cover"
+                    style={{ objectPosition: 'top' }}
+                />
             </figure>
             <div className="card-body">
-                <h2 className="card-title">{character.name}</h2>
-                <p className="text-sm opacity-70">{character.description}</p>
+                <h2 className="card-title text-base">{character.name}</h2>
+                <p className="text-xs opacity-70 line-clamp-2">{character.description}</p>
             </div>
         </div>
     );
