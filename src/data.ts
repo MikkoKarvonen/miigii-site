@@ -9,7 +9,7 @@ export const releases: Release[] = [
         coverArt: '/albums/LAST DRIFT.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR' },
             { platform: 'Apple Music', url: 'https://music.apple.com/album/example' },
             { platform: 'Bandcamp', url: 'https://miigii.bandcamp.com/album/midnight-dreams' },
             { platform: 'YouTube Music', url: 'https://music.youtube.com/playlist?list=example' },
@@ -23,7 +23,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Mia and the Pre Drops.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA7' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/1B8bhEqqHl6Yk2JT0ePg0D' },
         ],
     },
     {
@@ -34,7 +34,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Light of Love.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA9' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -45,7 +45,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Miigii.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA9' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/75vq673T0INsvvo4h2mtLd' },
         ],
     },
     {
@@ -56,7 +56,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Peppi and the Pre Drops.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA9' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3XGd8NlOc8Z4xSQx5Zg68x' },
         ],
     },
     {
@@ -67,7 +67,7 @@ export const releases: Release[] = [
         coverArt: '/albums/2020.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA9' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/15q33nyFpSWgOEcEdSaMRs' },
         ],
     },
     {
@@ -78,7 +78,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Visions.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com0' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/6LC4ZgCygw4gdj9nC4jFpq' },
         ],
     },
     {
@@ -89,7 +89,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Torille.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/4r0TLwVYXZ15k1H4TQ6zA5' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3MULrVFv3AoKA4p1ChNHS2' },
         ],
     },
     {
@@ -100,7 +100,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Pilluralli.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA0' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/4XwpnfjP8nagXxKWV8t1V6' },
         ],
     },
     {
@@ -111,7 +111,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Running.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA1' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3K7WTdPZUpRtiUyk4LpuzE' },
         ],
     },
     {
@@ -122,7 +122,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Cattack.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/5fvDb3rG5fTGSoCQu3RB17' },
         ],
     },
     {
@@ -133,7 +133,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Bailao.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA2' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/1TlYb54WQ9taA31fU9cLLV' },
         ],
     },
     {
@@ -144,7 +144,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Mantra da Deriva.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com2' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/2dwYGH5nU46dcakH9uY3yx' },
         ],
     },
     {
@@ -155,7 +155,7 @@ export const releases: Release[] = [
         coverArt: '/albums/FORTE.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com3' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/4nC6vV9FmWj1kKEZLpiwOw' },
         ],
     },
     {
@@ -166,7 +166,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Bastu.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com4' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/4utplnF7t9cGsmvjPfM9gs' },
         ],
     },
     {
@@ -177,7 +177,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Halo.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/7Cf5yZaQkpjAsyJkxgNF3A' },
         ],
     },
     {
@@ -188,7 +188,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Don\'t Stop.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com0' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3mnHLuLuMoPfopWI7qfFHv' },
         ],
     },
     {
@@ -199,7 +199,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Marathon of Betrayal.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com1' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3ZqQtNgwOtqiRnSmN9n47I' },
         ],
     },
     {
@@ -210,7 +210,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Hit the Breaks.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA3' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -221,7 +221,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Favela.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA4' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -232,7 +232,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Ponto Cego.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA5' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/4sr6FIPS5c6HBY63DWYc3y' },
         ],
     },
     {
@@ -243,7 +243,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Transformation.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com6' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/5l2zn97CTTraY7DOQPSvjR' },
         ],
     },
     {
@@ -254,7 +254,7 @@ export const releases: Release[] = [
         coverArt: '/albums/honk.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com7' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -265,7 +265,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Peppi and the Pre Drops, Vol. 2.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA8' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/02TqpGP1wjjAM3YwHbaF11' },
         ],
     },
     {
@@ -276,7 +276,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Traffic.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'spotify.com9' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/0Vj5x1a6TWj4AiDoV9xrDw' },
         ],
     },
     {
@@ -287,7 +287,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Lo-fi Dreams.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/4r0TLwVYXZ15k1H4TQ6zA5/discography/all' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/63PjjU5bJ9Cmaukvkka4aU' },
         ],
     },
     {
@@ -298,7 +298,7 @@ export const releases: Release[] = [
         coverArt: '/albums/SOS.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://artists.spotify.com/get-started' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/0rwi1XXwNvxrfcAIoIcOVn' },
         ],
     },
     {
@@ -309,7 +309,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Podcast Junkie.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://support.spotify.com/us/artists/article/creating-an-artist-profile-on-spotify/' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/70CmmoNro3YEmsGhsemiG4' },
         ],
     },
     {
@@ -320,7 +320,7 @@ export const releases: Release[] = [
         coverArt: '/albums/The Sound.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://artists.spotify.com/blog/making-the-most-of-your-artist-profile-on-spotify' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -331,7 +331,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Destruction.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA16' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -342,7 +342,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Soul.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA17' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -353,7 +353,7 @@ export const releases: Release[] = [
         coverArt: '/albums/It Blows me Away.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA18' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -364,7 +364,7 @@ export const releases: Release[] = [
         coverArt: '/albums/The Legend of the Onyx Stranger.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA19' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -375,7 +375,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Distant.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA20' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -386,7 +386,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Careless.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA21' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -397,7 +397,7 @@ export const releases: Release[] = [
         coverArt: '/albums/I Dont Know.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA22' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -408,7 +408,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Big Room Bigger Presents.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA23' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -419,7 +419,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Metronome.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA24' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -430,7 +430,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Pretender.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA25' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -441,7 +441,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Suburban Satisfaction.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA26' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -452,7 +452,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Set Me Free.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA27' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -463,7 +463,7 @@ export const releases: Release[] = [
         coverArt: '/albums/asd.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA28' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -474,7 +474,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Waiting.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR?si=KupnAGjqTOq_NgFgALAHNA29' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -485,7 +485,7 @@ export const releases: Release[] = [
         coverArt: '/albums/She.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/0' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -496,7 +496,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Game On.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/1' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -507,7 +507,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Jungle Demon.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/2' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -518,7 +518,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Style of the Future.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/3' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -529,7 +529,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Cruising.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/4' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -540,7 +540,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Swing.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/5' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -551,7 +551,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Youll Never Know.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/6' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -562,7 +562,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Beat is the Answer VIP.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/7' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -573,7 +573,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Learning Machine.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/8' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -584,7 +584,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Cordion.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/9' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -595,7 +595,7 @@ export const releases: Release[] = [
         coverArt: '/albums/BU.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all0' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -606,7 +606,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Loose Battle.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all1' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -617,7 +617,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Yellow Yellow.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all2' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -628,7 +628,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Silent Riot.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all3' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -639,7 +639,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Escape from Reality.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all4' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -650,7 +650,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Beat is the Answer.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all5' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -661,7 +661,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Forgotten Bubbles.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all6' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -672,7 +672,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Regret Knows How to Party.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all7' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -683,7 +683,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Real Weekend.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all8' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -694,7 +694,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Creativity on Ice.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all9' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -705,7 +705,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Cry of Sand.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all9' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -716,7 +716,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Illusion.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all9' },
+            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -727,7 +727,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Looking for the Muse.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/artist/0F45rLCHw8eT6oW8uX0W8V/discography/all9' },
+            { platform: 'Spotify', url: '' },
         ],
     }
 ];
