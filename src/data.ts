@@ -745,96 +745,121 @@ export const characters: Character[] = [
         name: 'Mia',
         description: 'Mia, a character who embodies a sleek, "modern-cool" aesthetic with a bit of a futuristic edge. Mia’s style is streamlined, mixing streetwear comfort with sharp, intentional details.',
         image: '/characters/main/Mia.jpg',
+        years: [{
+            year: '2021',
+            description: "",
+            image: '/characters/years/2021/Mia.jpg',
+            clothes: [{
+                name: "Shirt and skirt",
+                product: "dForce Daydream for Genesis 8 Female(s)",
+                link: "https://www.daz3d.com/dforce-daydream-for-genesis-8-females-"
+            }]
+        }]
     },
     {
         id: 'char02',
         name: 'Peppi',
         description: 'Peppi likely has a personality as sharp as her fashion sense. She’s the type of character who is effortlessly cool but possesses a quirky, confident charm—never afraid to mix textures, colors, and eras to create a look that is uniquely her own.',
         image: '/characters/main/Peppi.jpg',
+        years: []
     },
     {
         id: 'char03',
         name: 'Aki',
         description: 'Aki possesses a quiet, contemplative confidence and likely values quality and longevity in his choices. While the others might jump into the latest digital trends, Aki is the one analyzing the situation, offering a steady hand and a discerning eye.',
         image: '/characters/main/Aki.jpg',
+        years: []
     },
     {
         id: 'char04',
         name: 'Unicorn Slayers United (USU)',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Usu.jpg',
+        years: []
     },
     {
         id: 'char05',
         name: 'EmOhAreAreEyeEss',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/EmOhAreAreEyeEss.jpg',
+        years: []
     },
     {
         id: 'char06',
         name: 'Peppermint Ivory',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Peppermint Ivory.jpg',
+        years: []
     },
     {
         id: 'char07',
         name: 'Wilbur Macdonald',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Wilbur Macdonald.jpg',
+        years: []
     },
     {
         id: 'char08',
         name: 'Dashing Purple One',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Dashing Purple One.jpg',
+        years: []
     },
     {
         id: 'char09',
         name: 'Mr. Y',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Mr. Y.jpg',
+        years: []
     },
     {
         id: 'char10',
         name: 'ANNABXLLA',
         description: 'Guest of Peppi and the Pre Drops Vol 2.',
         image: '/characters/main/ANNABXLLA.jpg',
+        years: []
     },
     {
         id: 'char11',
         name: 'Kinship Duo',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        years: []
     },
     {
         id: 'char12',
         name: 'Zakres',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        years: []
     },
     {
         id: 'char13',
         name: 'Pipery Venom Trip',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        years: []
     },
     {
         id: 'char14',
         name: 'Flux Echo',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        years: []
     },
     {
         id: 'char15',
         name: 'Femmetech',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        years: []
     },
     {
         id: 'char16',
         name: '?',
         description: '?',
         image: '/characters/main/qm.jpg',
+        years: []
     },
 ];
 

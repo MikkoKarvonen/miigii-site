@@ -16,10 +16,24 @@ export interface Release {
     characterIds?: string[];
 }
 
+export interface Clothing {
+    name: string;
+    product: string;
+    link: string;
+}
+
+export interface CharacterYear {
+    year: string;
+    description: string;
+    image: string;
+    clothes: Clothing[]
+}
+
 export interface Character {
     id: string;
     name: string;
     description: string;
     image: string;
+    years: CharacterYear[]
 }
 
