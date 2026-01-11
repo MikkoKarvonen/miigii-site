@@ -84,6 +84,28 @@ export const releases: Release[] = [
         ],
     },
     {
+        id: '058',
+        title: 'Wanted (Unalive or Alive)',
+        type: 'single',
+        releaseDate: '2026-01-15',
+        coverArt: '/albums/Wanted.jpg',
+        description: "",
+        streamingLinks: [
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/3MULrVFv3AoKA4p1ChNHS2' },
+        ],
+    },
+    {
+        id: '057',
+        title: 'House Ska',
+        type: 'single',
+        releaseDate: '2026-01-08',
+        coverArt: '/albums/House Ska.jpg',
+        description: "",
+        streamingLinks: [
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/7If07pRGYPYUocqNZcPh5v' },
+        ],
+    },
+    {
         id: '056',
         title: 'Torille',
         type: 'single',
