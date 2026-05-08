@@ -1,7 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
 import { releases, characters } from '../data';
+import { useAlternateMarkdownLink } from '../hooks/useAlternateMarkdownLink';
 
 export default function ReleaseDetail() {
+    useAlternateMarkdownLink();
     const { id } = useParams<{ id: string }>();
     const release = releases.find(r => r.id === id);
 

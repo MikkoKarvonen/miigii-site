@@ -1,7 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
 import { characters } from '../data';
+import { useAlternateMarkdownLink } from '../hooks/useAlternateMarkdownLink';
 
 export default function CharacterDetail() {
+    useAlternateMarkdownLink();
     const { id } = useParams<{ id: string }>();
     const character = characters.find(c => c.id === id);
 

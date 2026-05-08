@@ -1,8 +1,10 @@
 import { releases, characters } from '../data';
 import ReleaseCard from '../components/ReleaseCard';
 import CharacterCard from '../components/CharacterCard';
+import { useAlternateMarkdownLink } from '../hooks/useAlternateMarkdownLink';
 
 export default function Home() {
+    useAlternateMarkdownLink();
     const albums = releases.filter(r => r.type === 'album');
     const eps = releases.filter(r => r.type === 'ep');
     const singles = releases.filter(r => r.type === 'single');
