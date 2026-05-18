@@ -16,7 +16,7 @@ export default function ReleaseCard({ release }: ReleaseCardProps) {
         <Link to={`/release/${release.id}`} className="card card-sm bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
             <figure>
                 <img
-                    src={release.coverArt}
+                    src={release.thumbnail}
                     alt={release.title}
                     className="w-full aspect-square object-cover"
                 />

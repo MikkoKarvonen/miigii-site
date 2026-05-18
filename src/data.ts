@@ -7,6 +7,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2025-09-04',
         coverArt: '/albums/LAST DRIFT.jpg',
+        thumbnail: '/albums/LAST DRIFT_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR' },
@@ -20,6 +21,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2024-05-01',
         coverArt: '/albums/Mia and the Pre Drops.jpg',
+        thumbnail: '/albums/Mia and the Pre Drops_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1B8bhEqqHl6Yk2JT0ePg0D' },
@@ -32,6 +34,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2024-01-10',
         coverArt: '/albums/Light of Love.jpg',
+        thumbnail: '/albums/Light of Love_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: '' },
@@ -43,6 +46,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2022-01-10',
         coverArt: '/albums/Miigii.jpg',
+        thumbnail: '/albums/Miigii_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/75vq673T0INsvvo4h2mtLd' },
@@ -55,6 +59,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2024-01-10',
         coverArt: '/albums/Peppi and the Pre Drops.jpg',
+        thumbnail: '/albums/Peppi and the Pre Drops_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3XGd8NlOc8Z4xSQx5Zg68x' },
@@ -67,6 +72,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2020-12-18',
         coverArt: '/albums/2020.jpg',
+        thumbnail: '/albums/2020_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/15q33nyFpSWgOEcEdSaMRs' },
@@ -78,6 +84,7 @@ export const releases: Release[] = [
         type: 'album',
         releaseDate: '2019-11-20',
         coverArt: '/albums/Visions.jpg',
+        thumbnail: '/albums/Visions_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/6LC4ZgCygw4gdj9nC4jFpq' },
@@ -89,6 +96,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2026-05-07',
         coverArt: '/albums/BeetsAreVegan.jpg',
+        thumbnail: '/albums/BeetsAreVegan_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1bOoD1kKYrVEWZsDqfphc4' },
@@ -100,6 +108,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2026-04-02',
         coverArt: '/albums/BrainRot.jpg',
+        thumbnail: '/albums/BrainRot_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1VxbLx2NQmQGekIR3h7Rmj' },
@@ -111,6 +120,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2026-02-19',
         coverArt: '/albums/BrandyXRum.jpg',
+        thumbnail: '/albums/BrandyXRum_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/33UaaYr5ug49ZCqD2f46Ex' },
@@ -122,6 +132,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2026-01-15',
         coverArt: '/albums/Wanted.jpg',
+        thumbnail: '/albums/Wanted_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0H4V6cavu10vzI48iB85E2' },
@@ -133,6 +144,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2026-01-08',
         coverArt: '/albums/House Ska.jpg',
+        thumbnail: '/albums/House Ska_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/7If07pRGYPYUocqNZcPh5v' },
@@ -144,6 +156,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2025-12-04',
         coverArt: '/albums/Torille.jpg',
+        thumbnail: '/albums/Torille_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3MULrVFv3AoKA4p1ChNHS2' },
@@ -155,6 +168,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-11-13',
         coverArt: '/albums/Pilluralli.jpg',
+        thumbnail: '/albums/Pilluralli_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4XwpnfjP8nagXxKWV8t1V6' },
@@ -166,6 +180,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-08-25',
         coverArt: '/albums/Running.jpg',
+        thumbnail: '/albums/Running_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3K7WTdPZUpRtiUyk4LpuzE' },
@@ -177,6 +192,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-08-05',
         coverArt: '/albums/Cattack.jpg',
+        thumbnail: '/albums/Cattack_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5fvDb3rG5fTGSoCQu3RB17' },
@@ -188,6 +204,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-09-10',
         coverArt: '/albums/Bailao.jpg',
+        thumbnail: '/albums/Bailao_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1TlYb54WQ9taA31fU9cLLV' },
@@ -199,6 +216,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-07-22',
         coverArt: '/albums/Mantra da Deriva.jpg',
+        thumbnail: '/albums/Mantra da Deriva_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/2dwYGH5nU46dcakH9uY3yx' },
@@ -210,6 +228,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-06-18',
         coverArt: '/albums/FORTE.jpg',
+        thumbnail: '/albums/FORTE_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4nC6vV9FmWj1kKEZLpiwOw' },
@@ -221,6 +240,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-05-12',
         coverArt: '/albums/Bastu.jpg',
+        thumbnail: '/albums/Bastu_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4utplnF7t9cGsmvjPfM9gs' },
@@ -232,6 +252,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2025-01-10',
         coverArt: '/albums/Halo.jpg',
+        thumbnail: '/albums/Halo_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/7Cf5yZaQkpjAsyJkxgNF3A' },
@@ -243,6 +264,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-10-25',
         coverArt: '/albums/Don\'t Stop.jpg',
+        thumbnail: '/albums/Don\'t Stop_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3mnHLuLuMoPfopWI7qfFHv' },
@@ -254,6 +276,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-10-10',
         coverArt: '/albums/Marathon of Betrayal.jpg',
+        thumbnail: '/albums/Marathon of Betrayal_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3ZqQtNgwOtqiRnSmN9n47I' },
@@ -265,6 +288,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-07-28',
         coverArt: '/albums/Hit the Breaks.jpg',
+        thumbnail: '/albums/Hit the Breaks_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1fqdIZnXHRgZvwnANjiCyu' },
@@ -276,6 +300,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-06-01',
         coverArt: '/albums/Favela.jpg',
+        thumbnail: '/albums/Favela_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5y8g9p1xsCMHIiGwVxr3of' },
@@ -287,6 +312,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-05-01',
         coverArt: '/albums/Ponto Cego.jpg',
+        thumbnail: '/albums/Ponto Cego_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4sr6FIPS5c6HBY63DWYc3y' },
@@ -298,6 +324,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-02-14',
         coverArt: '/albums/Transformation.jpg',
+        thumbnail: '/albums/Transformation_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5l2zn97CTTraY7DOQPSvjR' },
@@ -309,6 +336,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-01-20',
         coverArt: '/albums/honk.jpg',
+        thumbnail: '/albums/honk_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/7AXj3znuuFXqwEBTlhpnMg' },
@@ -320,6 +348,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2024-03-20',
         coverArt: '/albums/Peppi and the Pre Drops, Vol. 2.jpg',
+        thumbnail: '/albums/Peppi and the Pre Drops, Vol. 2_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/02TqpGP1wjjAM3YwHbaF11' },
@@ -332,6 +361,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2023-11-10',
         coverArt: '/albums/Traffic.jpg',
+        thumbnail: '/albums/Traffic_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0Vj5x1a6TWj4AiDoV9xrDw' },
@@ -344,6 +374,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2021-09-03',
         coverArt: '/albums/Lo-fi Dreams.jpg',
+        thumbnail: '/albums/Lo-fi Dreams_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/63PjjU5bJ9Cmaukvkka4aU' },
@@ -356,6 +387,7 @@ export const releases: Release[] = [
         type: 'ep',
         releaseDate: '2021-04-16',
         coverArt: '/albums/SOS.jpg',
+        thumbnail: '/albums/SOS_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0rwi1XXwNvxrfcAIoIcOVn' },
@@ -368,6 +400,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2020-03-27',
         coverArt: '/albums/Podcast Junkie.jpg',
+        thumbnail: '/albums/Podcast Junkie_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/70CmmoNro3YEmsGhsemiG4' },
@@ -380,6 +413,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-11-08',
         coverArt: '/albums/The Sound.jpg',
+        thumbnail: '/albums/The Sound_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/24zdFWluem9uqvfHdU2l9h' },
@@ -391,6 +425,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-09-27',
         coverArt: '/albums/Destruction.jpg',
+        thumbnail: '/albums/Destruction_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0OfUmJpdMqjl5mwIt17MnC' },
@@ -402,6 +437,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-07-26',
         coverArt: '/albums/Soul.jpg',
+        thumbnail: '/albums/Soul_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4AoSMGkRw2jclj30wFVCQc' },
@@ -413,6 +449,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-06-21',
         coverArt: '/albums/It Blows me Away.jpg',
+        thumbnail: '/albums/It Blows me Away_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3kq49wWrHqtP1lwp5Mjq3s' },
@@ -424,6 +461,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-05-17',
         coverArt: '/albums/The Legend of the Onyx Stranger.jpg',
+        thumbnail: '/albums/The Legend of the Onyx Stranger_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4jx3NO8qwgsuw4qGNU1ZZv' },
@@ -435,6 +473,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-04-12',
         coverArt: '/albums/Distant.jpg',
+        thumbnail: '/albums/Distant_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/57gBOPdHfdUoiClcI3dPM3' },
@@ -446,6 +485,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-03-08',
         coverArt: '/albums/Careless.jpg',
+        thumbnail: '/albums/Careless_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4jkR9VV6YyyYDASvG8Miwu' },
@@ -457,6 +497,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2019-01-25',
         coverArt: '/albums/I Dont Know.jpg',
+        thumbnail: '/albums/I Dont Know_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0zYK9D8UoLP8IaRLFodZWa' },
@@ -468,6 +509,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-12-14',
         coverArt: '/albums/Big Room Bigger Presents.jpg',
+        thumbnail: '/albums/Big Room Bigger Presents_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3el7uQFP0qjQI4P2AukfAd' },
@@ -479,6 +521,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-11-23',
         coverArt: '/albums/Metronome.jpg',
+        thumbnail: '/albums/Metronome_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1Y5iG26FwOYeJHUocYzAhS' },
@@ -490,6 +533,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-11-02',
         coverArt: '/albums/Pretender.jpg',
+        thumbnail: '/albums/Pretender_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5MncDuyNwf7BUioU65EPF1' },
@@ -501,6 +545,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-10-12',
         coverArt: '/albums/Suburban Satisfaction.jpg',
+        thumbnail: '/albums/Suburban Satisfaction_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5TKXNuZnhbb0QnM9KNiGvU' },
@@ -512,6 +557,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-09-21',
         coverArt: '/albums/Set Me Free.jpg',
+        thumbnail: '/albums/Set Me Free_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5Akf1GZ8XwB7lQ7vXSQB63' },
@@ -523,6 +569,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-08-31',
         coverArt: '/albums/asd.jpg',
+        thumbnail: '/albums/asd_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5UxLlgpnFEsx2z2EJ62YvY' },
@@ -534,6 +581,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-08-10',
         coverArt: '/albums/Waiting.jpg',
+        thumbnail: '/albums/Waiting_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/78Avhh1MOd1i1dUFXsQ8Y2' },
@@ -545,6 +593,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-07-20',
         coverArt: '/albums/She.jpg',
+        thumbnail: '/albums/She_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5VLsrMxihGBO5GU6g0x4Ri' },
@@ -556,6 +605,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-06-29',
         coverArt: '/albums/Game On.jpg',
+        thumbnail: '/albums/Game On_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1rHLBVKL3TNBFWRPMHCHkI' },
@@ -567,6 +617,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-06-08',
         coverArt: '/albums/Jungle Demon.jpg',
+        thumbnail: '/albums/Jungle Demon_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/1VmCnqdhfUMkS7kD8Eeesk' },
@@ -578,6 +629,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-05-18',
         coverArt: '/albums/Style of the Future.jpg',
+        thumbnail: '/albums/Style of the Future_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/2GnkB7TVBRjGeytKvl15mx' },
@@ -589,6 +641,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-04-27',
         coverArt: '/albums/Cruising.jpg',
+        thumbnail: '/albums/Cruising_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4dPZzQ7FvKbbjp6dPHhp6h' },
@@ -600,6 +653,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-04-06',
         coverArt: '/albums/Swing.jpg',
+        thumbnail: '/albums/Swing_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4jfkEKJxQCOLXSqw7oFTjZ' },
@@ -611,6 +665,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-03-16',
         coverArt: '/albums/Youll Never Know.jpg',
+        thumbnail: '/albums/Youll Never Know_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/6dRP6ENlkRslnvUaORXxIe' },
@@ -622,6 +677,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-02-23',
         coverArt: '/albums/Beat is the Answer VIP.jpg',
+        thumbnail: '/albums/Beat is the Answer VIP_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4kGuONzWb5jpwipbOq45DW' },
@@ -633,6 +689,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-02-02',
         coverArt: '/albums/Learning Machine.jpg',
+        thumbnail: '/albums/Learning Machine_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/7bNiW9kEwEDb7J2nxRIApe' },
@@ -644,6 +701,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-01-12',
         coverArt: '/albums/Cordion.jpg',
+        thumbnail: '/albums/Cordion_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/2UnZwrQ15NH64tDY8W0fBL' },
@@ -655,6 +713,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2018-01-05',
         coverArt: '/albums/BU.jpg',
+        thumbnail: '/albums/BU_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/28zHGK6JM786PGn4Z2KKHZ' },
@@ -666,6 +725,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-12-08',
         coverArt: '/albums/Loose Battle.jpg',
+        thumbnail: '/albums/Loose Battle_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5gYszSNBHXJUOSqQhisMLB' },
@@ -677,6 +737,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-11-17',
         coverArt: '/albums/Yellow Yellow.jpg',
+        thumbnail: '/albums/Yellow Yellow_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/7aVNDYX343cAcwfjcuia7d' },
@@ -688,6 +749,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-10-27',
         coverArt: '/albums/Silent Riot.jpg',
+        thumbnail: '/albums/Silent Riot_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/319SRdrVDHQcU5C6HAWBrx' },
@@ -699,6 +761,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-10-06',
         coverArt: '/albums/Escape from Reality.jpg',
+        thumbnail: '/albums/Escape from Reality_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0JvwYioI3Kg68YzcOcVq3L' },
@@ -710,6 +773,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-09-15',
         coverArt: '/albums/Beat is the Answer.jpg',
+        thumbnail: '/albums/Beat is the Answer_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4dsiEUXIGeTiW3Jw8xTaez' },
@@ -721,6 +785,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-08-25',
         coverArt: '/albums/Forgotten Bubbles.jpg',
+        thumbnail: '/albums/Forgotten Bubbles_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/2XJPXPd7ycvq2y5F8pw58P' },
@@ -732,6 +797,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-08-04',
         coverArt: '/albums/Regret Knows How to Party.jpg',
+        thumbnail: '/albums/Regret Knows How to Party_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3eSosHZzO9nSVCwRmi53QQ' },
@@ -743,6 +809,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-07-14',
         coverArt: '/albums/Real Weekend.jpg',
+        thumbnail: '/albums/Real Weekend_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: '' },
@@ -754,6 +821,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-06-23',
         coverArt: '/albums/Creativity on Ice.jpg',
+        thumbnail: '/albums/Creativity on Ice_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/0AqFD5kHlEH6PdbZLaHnlY' },
@@ -765,6 +833,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-06-23',
         coverArt: '/albums/Cry of Sand.jpg',
+        thumbnail: '/albums/Cry of Sand_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/6rlk2I8TGW7n2zwMwOygoV' },
@@ -776,6 +845,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-06-23',
         coverArt: '/albums/Illusion.jpg',
+        thumbnail: '/albums/Illusion_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: '' },
@@ -787,6 +857,7 @@ export const releases: Release[] = [
         type: 'single',
         releaseDate: '2017-06-23',
         coverArt: '/albums/Looking for the Muse.jpg',
+        thumbnail: '/albums/Looking for the Muse_small.jpg',
         description: "",
         streamingLinks: [
             { platform: 'Spotify', url: '' },

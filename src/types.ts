@@ -11,6 +11,7 @@ export interface Release {
     type: ReleaseType;
     releaseDate: string;
     coverArt: string;
+    thumbnail: string;
     description: string;
     streamingLinks: StreamingLink[];
     characterIds?: string[];
