@@ -873,19 +873,42 @@ export const characters: Character[] = [
         image: '/characters/main/Mia.jpg',
         thumbnail: '/characters/main/Mia_small.jpg',
         years: [{
-            year: '2021',
+            year: '2022',
             description: "",
-            image: '/characters/years/2021/Mia.jpg',
+            image: '/characters/years/2022/Mia.jpg',
             clothes: [{
                 name: "Shirt and skirt",
                 product: "dForce Daydream for Genesis 8 Female(s)",
                 link: "https://www.daz3d.com/dforce-daydream-for-genesis-8-females-"
             }]
         }, {
-            year: '2022',
+            year: '2022.2',
             description: "",
-            image: '/characters/years/2022/Mia.jpg',
+            image: '/characters/years/2022/Mia2.jpg',
             clothes: []
+        }, {
+            year: '2024',
+            description: "",
+            image: '/characters/years/2024/Mia.jpg',
+            clothes: []
+        }, {
+            year: '2025',
+            description: "",
+            image: '/characters/years/2025/Mia.jpg',
+            clothes: [{
+                name: "Outfit",
+                product: "Racing Queen's Outfit for Genesis 8 Female(s)",
+                link: "https://www.daz3d.com/racing-queens-outfit-for-genesis-8-females"
+            }]
+        }, {
+            year: '2026',
+            description: "",
+            image: '/characters/years/2026/Mia.jpg',
+            clothes: [{
+                name: "Outfit",
+                product: "dForce Sweet Chaoz Outfit for Genesis 8 and 8.1 Females",
+                link: "https://www.daz3d.com/dforce-sweet-chaoz-outfit-for-genesis-8-and-81-females"
+            }]
         }]
     },
     {
@@ -903,6 +926,11 @@ export const characters: Character[] = [
             year: '2022',
             description: "",
             image: '/characters/years/2022/Peppi.jpg',
+            clothes: []
+        }, {
+            year: '2022.2',
+            description: "",
+            image: '/characters/years/2022/Peppi2.jpg',
             clothes: []
         }, {
             //     year: '2023',
