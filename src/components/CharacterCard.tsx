@@ -11,7 +11,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             <div className="card card-sm bg-base-100 shadow-xl">
                 <figure>
                     <img
-                        src={character.image}
+                        src={character.thumbnail}
                         alt={character.name}
                         className="w-full aspect-square object-cover"
                         style={{ objectPosition: 'top' }}

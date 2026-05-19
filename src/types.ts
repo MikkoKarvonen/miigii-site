@@ -35,6 +35,7 @@ export interface Character {
     name: string;
     description: string;
     image: string;
+    thumbnail: string;
     years: CharacterYear[]
 }
 

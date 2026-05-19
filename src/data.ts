@@ -871,6 +871,7 @@ export const characters: Character[] = [
         name: 'Mia',
         description: 'Mia, a character who embodies a sleek, "modern-cool" aesthetic with a bit of a futuristic edge. Mia’s style is streamlined, mixing streetwear comfort with sharp, intentional details.',
         image: '/characters/main/Mia.jpg',
+        thumbnail: '/characters/main/Mia_small.jpg',
         years: [{
             year: '2021',
             description: "",
@@ -880,6 +881,11 @@ export const characters: Character[] = [
                 product: "dForce Daydream for Genesis 8 Female(s)",
                 link: "https://www.daz3d.com/dforce-daydream-for-genesis-8-females-"
             }]
+        }, {
+            year: '2022',
+            description: "",
+            image: '/characters/years/2022/Mia.jpg',
+            clothes: []
         }]
     },
     {
@@ -887,6 +893,7 @@ export const characters: Character[] = [
         name: 'Peppi',
         description: 'Peppi likely has a personality as sharp as her fashion sense. She’s the type of character who is effortlessly cool but possesses a quirky, confident charm—never afraid to mix textures, colors, and eras to create a look that is uniquely her own.',
         image: '/characters/main/Peppi.jpg',
+        thumbnail: '/characters/main/Peppi_small.jpg',
         years: []
     },
     {
@@ -894,6 +901,7 @@ export const characters: Character[] = [
         name: 'Aki',
         description: 'Aki possesses a quiet, contemplative confidence and likely values quality and longevity in his choices. While the others might jump into the latest digital trends, Aki is the one analyzing the situation, offering a steady hand and a discerning eye.',
         image: '/characters/main/Aki.jpg',
+        thumbnail: '/characters/main/Aki.jpg',
         years: []
     },
     {
@@ -901,6 +909,7 @@ export const characters: Character[] = [
         name: 'Unicorn Slayers United (USU)',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Usu.jpg',
+        thumbnail: '/characters/main/Usu.jpg',
         years: []
     },
     {
@@ -908,6 +917,7 @@ export const characters: Character[] = [
         name: 'EmOhAreAreEyeEss',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/EmOhAreAreEyeEss.jpg',
+        thumbnail: '/characters/main/EmOhAreAreEyeEss.jpg',
         years: []
     },
     {
@@ -915,6 +925,7 @@ export const characters: Character[] = [
         name: 'Peppermint Ivory',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Peppermint Ivory.jpg',
+        thumbnail: '/characters/main/Peppermint Ivory.jpg',
         years: []
     },
     {
@@ -922,6 +933,7 @@ export const characters: Character[] = [
         name: 'Wilbur Macdonald',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Wilbur Macdonald.jpg',
+        thumbnail: '/characters/main/Wilbur Macdonald.jpg',
         years: []
     },
     {
@@ -929,6 +941,7 @@ export const characters: Character[] = [
         name: 'Dashing Purple One',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Dashing Purple One.jpg',
+        thumbnail: '/characters/main/Dashing Purple One.jpg',
         years: []
     },
     {
@@ -936,6 +949,7 @@ export const characters: Character[] = [
         name: 'Mr. Y',
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Mr. Y.jpg',
+        thumbnail: '/characters/main/Mr. Y.jpg',
         years: []
     },
     {
@@ -943,6 +957,7 @@ export const characters: Character[] = [
         name: 'ANNABXLLA',
         description: 'Guest of Peppi and the Pre Drops Vol 2.',
         image: '/characters/main/ANNABXLLA.jpg',
+        thumbnail: '/characters/main/ANNABXLLA.jpg',
         years: []
     },
     {
@@ -950,6 +965,7 @@ export const characters: Character[] = [
         name: 'Kinship Duo',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
     {
@@ -957,6 +973,7 @@ export const characters: Character[] = [
         name: 'Zakres',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
     {
@@ -964,6 +981,7 @@ export const characters: Character[] = [
         name: 'Pipery Venom Trip',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
     {
@@ -971,6 +989,7 @@ export const characters: Character[] = [
         name: 'Flux Echo',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
     {
@@ -978,6 +997,7 @@ export const characters: Character[] = [
         name: 'Femmetech',
         description: 'Guest of Mia and the Pre Drops.',
         image: '/null.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
     {
@@ -985,6 +1005,7 @@ export const characters: Character[] = [
         name: '?',
         description: '?',
         image: '/characters/main/qm.jpg',
+        thumbnail: '/null.jpg',
         years: []
     },
 ];
