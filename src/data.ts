@@ -894,7 +894,37 @@ export const characters: Character[] = [
         description: 'Peppi likely has a personality as sharp as her fashion sense. She’s the type of character who is effortlessly cool but possesses a quirky, confident charm—never afraid to mix textures, colors, and eras to create a look that is uniquely her own.',
         image: '/characters/main/Peppi.jpg',
         thumbnail: '/characters/main/Peppi_small.jpg',
-        years: []
+        years: [{
+            //     year: '2021',
+            //     description: "",
+            //     image: '/characters/years/2021/Peppi.jpg',
+            //     clothes: []
+            // }, {
+            year: '2022',
+            description: "",
+            image: '/characters/years/2022/Peppi.jpg',
+            clothes: []
+        }, {
+            //     year: '2023',
+            //     description: "",
+            //     image: '/characters/years/2023/Peppi.jpg',
+            //     clothes: []
+            // }, {
+            year: '2024',
+            description: "",
+            image: '/characters/years/2024/Peppi.jpg',
+            clothes: []
+        }, {
+            //     year: '2025',
+            //     description: "",
+            //     image: '/characters/years/2025/Peppi.jpg',
+            //     clothes: []
+            // }, {
+            year: '2026',
+            description: "",
+            image: '/characters/years/2026/Peppi.jpg',
+            clothes: []
+        }]
     },
     {
         id: 'char03',
