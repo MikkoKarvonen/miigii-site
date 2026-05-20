@@ -15,6 +15,7 @@ export interface Release {
     description: string;
     streamingLinks: StreamingLink[];
     characterIds?: string[];
+    youtubeUrl?: string;
 }
 
 export interface Clothing {

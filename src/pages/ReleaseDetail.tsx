@@ -69,6 +69,30 @@ const typeBadgeClass: Record<ReleaseType, string> = {
     single: 'border-accent/40 text-accent',
 };
 
+function parseYoutubeVideoId(input: string): string | null {
+    const trimmed = input.trim();
+    if (!trimmed) return null;
+
+    try {
+        const url = new URL(trimmed.startsWith('http') ? trimmed : `https://${trimmed}`);
+        if (url.hostname.includes('youtube.com')) {
+            const id = url.searchParams.get('v');
+            if (id) return id;
+            const embedMatch = url.pathname.match(/^\/embed\/([^/]+)/);
+            if (embedMatch) return embedMatch[1];
+        }
+        if (url.hostname === 'youtu.be') {
+            const id = url.pathname.slice(1).split('/')[0];
+            return id || null;
+        }
+    } catch {
+        // Not a URL — fall through to raw ID check.
+    }
+
+    if (/^[\w-]{11}$/.test(trimmed)) return trimmed;
+    return null;
+}
+
 export default function ReleaseDetail() {
     useAlternateMarkdownLink();
     const { id } = useParams<{ id: string }>();
@@ -90,6 +114,9 @@ export default function ReleaseDetail() {
         : [];
 
     const streamingLinks = release.streamingLinks.filter(link => link.url.trim());
+    const youtubeVideoId = release.youtubeUrl
+        ? parseYoutubeVideoId(release.youtubeUrl)
+        : null;
 
     const formattedDate = new Date(release.releaseDate).toLocaleDateString('en-US', {
         year: 'numeric',
@@ -130,6 +157,26 @@ export default function ReleaseDetail() {
                         </p>
                     </div>
                 </header>
+
+                {youtubeVideoId && (
+                    <section className="mb-16 lg:mb-24">
+                        <div className="flex items-end gap-4 mb-8">
+                            <h2 className="text-2xl sm:text-3xl font-bold text-primary">Music video</h2>
+                            <div className="flex-1 h-px bg-base-content/10 mb-2" />
+                        </div>
+
+                        <div className="relative overflow-hidden rounded-2xl bg-base-300 ring-1 ring-base-content/10 shadow-2xl aspect-video">
+                            <iframe
+                                src={`https://www.youtube-nocookie.com/embed/${youtubeVideoId}`}
+                                title={`${release.title} music video`}
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen
+                                className="absolute inset-0 w-full h-full border-0"
+                            />
+                        </div>
+                    </section>
+                )}
 
                 {streamingLinks.length > 0 && (
                     <section className="mb-16 lg:mb-24">

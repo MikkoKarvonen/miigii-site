@@ -12,7 +12,6 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR' },
             { platform: 'Apple Music', url: 'https://music.apple.com/album/example' },
-            { platform: 'Bandcamp', url: 'https://Miigii.bandcamp.com/album/midnight-dreams' },
             { platform: 'YouTube Music', url: 'https://music.youtube.com/playlist?list=example' },
         ],
     }, {
@@ -65,6 +64,7 @@ export const releases: Release[] = [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3XGd8NlOc8Z4xSQx5Zg68x' },
         ],
         characterIds: ['char01', 'char02', 'char03', 'char04', 'char05', 'char06', 'char07', 'char08', 'char09'],
+        youtubeUrl: 'https://www.youtube.com/watch?v=Xc2CcWm-Y6w'
     },
     {
         id: '202',
@@ -170,6 +170,7 @@ export const releases: Release[] = [
         coverArt: '/albums/Pilluralli.jpg',
         thumbnail: '/albums/Pilluralli_small.jpg',
         description: "",
+        youtubeUrl: 'https://www.youtube.com/watch?v=ka2uCt9DohQ',
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4XwpnfjP8nagXxKWV8t1V6' },
         ],
@@ -281,6 +282,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3ZqQtNgwOtqiRnSmN9n47I' },
         ],
+        youtubeUrl: 'https://www.youtube.com/watch?v=oYKa9nGF_4I'
     },
     {
         id: '045',
@@ -305,6 +307,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/5y8g9p1xsCMHIiGwVxr3of' },
         ],
+        youtubeUrl: 'https://www.youtube.com/watch?v=qMEOR1RPkvU'
     },
     {
         id: '043',
@@ -317,6 +320,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/4sr6FIPS5c6HBY63DWYc3y' },
         ],
+        youtubeUrl: 'https://www.youtube.com/watch?v=-p2UDp8f6-k'
     },
     {
         id: '042',
