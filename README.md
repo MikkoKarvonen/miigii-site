@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# Miigii Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for Miigii, featuring discography releases, artist details, and character pages.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://miigii.netlify.app
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a React + TypeScript single-page site built with Vite. It includes:
 
-## Expanding the ESLint configuration
+- Homepage with artist profile and featured content
+- Discography grouped by Albums, EPs, and Singles
+- Character gallery with dedicated character detail pages
+- Release detail pages with streaming and media links
+- In-page anchor navigation and scroll-to-top behavior between routes
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Tailwind CSS + daisyUI
+- ESLint
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `src/pages` - Main route pages (`Home`, `ReleaseDetail`, `CharacterDetail`)
+- `src/components` - Reusable UI components (cards, navbar)
+- `src/data.ts` - Main release, character, and artist metadata
+- `public/` - Static content and assets (albums, characters, markdown files)
+
+## Development
+
+Install dependencies:
+
+```bash
+pnpm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Start development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+pnpm dev
 ```
+
+Build for production:
+
+```bash
+pnpm build
+```
+
+Preview production build locally:
+
+```bash
+pnpm preview
+```
+
+Run linting:
+
+```bash
+pnpm lint
+```
+
+## Content Updates
+
+- Add or edit releases/characters in `src/data.ts`
+- Add matching images and static files under `public/`
+- Release and character details are resolved via route params (`/release/:id`, `/character/:id`)
