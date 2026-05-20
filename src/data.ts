@@ -834,9 +834,8 @@ export const releases: Release[] = [
         releaseDate: '2018-06-05',
         coverArt: '/albums/Cry of Sand.jpg',
         thumbnail: '/albums/Cry of Sand_small.jpg',
-        description: "",
+        description: "Cry of Sand was the first single that was uploaded using the distribution service called Amuse. It was uploaded on the free plan when the whole service was still brand new. In 2024 I recieved an email from Amuse that there was metadata issues and had to be re-uploaded. There was no free plan anymore, so they were trying to offer me a 20% discount to get the single back up. I refuced since an update to the metadata could have been done from their side and shouldn't have to cost me anything. I get that it was uploaded for free then but I would believe the promotion back then was also that use for free forever. Need to remix these Amuse releases at some point. But fuck Amuse.",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/6rlk2I8TGW7n2zwMwOygoV' },
         ],
     },
     {
@@ -846,9 +845,8 @@ export const releases: Release[] = [
         releaseDate: '2019-04-19',
         coverArt: '/albums/Illusion.jpg',
         thumbnail: '/albums/Illusion_small.jpg',
-        description: "",
+        description: "Illusion was uploaded using the distribution service called Amuse. It was uploaded on the free plan when the whole service was still brand new. In 2024 I recieved an email from Amuse that there was metadata issues and had to be re-uploaded. There was no free plan anymore, so they were trying to offer me a 20% discount to get the single back up. I refuced since an update to the metadata could have been done from their side and shouldn't have to cost me anything. I get that it was uploaded for free then but I would believe the promotion back then was also that use for free forever. Need to remix these Amuse releases at some point. But fuck Amuse.",
         streamingLinks: [
-            { platform: 'Spotify', url: '' },
         ],
     },
     {
@@ -858,9 +856,8 @@ export const releases: Release[] = [
         releaseDate: '2019-12-24',
         coverArt: '/albums/Looking for the Muse.jpg',
         thumbnail: '/albums/Looking for the Muse_small.jpg',
-        description: "",
+        description: "Looking for the Muse was uploaded using the distribution service called Amuse. It was uploaded on the free plan when the whole service was still brand new. In 2024 I recieved an email from Amuse that there was metadata issues and had to be re-uploaded. There was no free plan anymore, so they were trying to offer me a 20% discount to get the single back up. I refuced since an update to the metadata could have been done from their side and shouldn't have to cost me anything. I get that it was uploaded for free then but I would believe the promotion back then was also that use for free forever. Need to remix these Amuse releases at some point. But fuck Amuse.",
         streamingLinks: [
-            { platform: 'Spotify', url: '' },
         ],
     }
 ];
