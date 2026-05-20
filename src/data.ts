@@ -883,17 +883,17 @@ export const characters: Character[] = [
             }]
         }, {
             year: '2022.2',
-            description: "",
+            description: "Channel Mia’s effortless street-chic aesthetic with this high-contrast look. Featuring a ribbed, vibrant cobalt long-sleeve mock-neck with a sharp asymmetric shoulder cutout, paired perfectly with a high-waisted black mini skirt. Complete the laid-back pop look with classic low-top canvas sneakers.",
             image: '/characters/years/2022/Mia2.jpg',
             clothes: []
         }, {
             year: '2024',
-            description: "",
+            description: "Capture sophisticated, modern elegance with this structured cocktail dress. Featuring a vibrant metallic turquoise base adorned with an intricate black damask pattern, it is elevated by a sheer, delicate black lace collar overlay. Styled with gold-detailed strappy heels and dramatic geometric drop earrings for a sleek evening statement.",
             image: '/characters/years/2024/Mia.jpg',
             clothes: []
         }, {
             year: '2025',
-            description: "",
+            description: "Go full speed ahead into Y2K festival style with this high-octane athleisure set. The look pairs a cropped, zip-up royal blue speed-jacket with matching high-cut shorts, both framed by signature black-and-white checkered trim. Take the outfit to the extreme with metallic blue thigh-high boots and retro-rim frames.",
             image: '/characters/years/2025/Mia.jpg',
             clothes: [{
                 name: "Outfit",
@@ -902,7 +902,7 @@ export const characters: Character[] = [
             }]
         }, {
             year: '2026',
-            description: "",
+            description: "Dive into a futuristic grunge fantasy with this iridescent lavender mini dress. It boasts a structured, supportive corset bodice, multi-tiered ruffle satin skirts, and delicate black lace accents along the trim. Edged up with fishnets, a matching ribbon choker, and cybernetic silver multi-buckle platform boots.",
             image: '/characters/years/2026/Mia.jpg',
             clothes: [{
                 name: "Outfit",
