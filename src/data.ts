@@ -816,7 +816,7 @@ export const releases: Release[] = [
         thumbnail: '/albums/Real Weekend_small.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: '' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/0AqFD5kHlEH6PdbZLaHnlY' },
         ],
     },
     {
@@ -828,7 +828,7 @@ export const releases: Release[] = [
         thumbnail: '/albums/Creativity on Ice_small.jpg',
         description: "",
         streamingLinks: [
-            { platform: 'Spotify', url: 'https://open.spotify.com/album/0AqFD5kHlEH6PdbZLaHnlY' },
+            { platform: 'Spotify', url: 'https://open.spotify.com/album/6rlk2I8TGW7n2zwMwOygoV' },
         ],
     },
     {
@@ -891,7 +891,11 @@ export const characters: Character[] = [
             year: '2024',
             description: "Capture sophisticated, modern elegance with this structured cocktail dress. Featuring a vibrant metallic turquoise base adorned with an intricate black damask pattern, it is elevated by a sheer, delicate black lace collar overlay. Styled with gold-detailed strappy heels and dramatic geometric drop earrings for a sleek evening statement.",
             image: '/characters/years/2024/Mia.jpg',
-            clothes: []
+            clothes: [{
+                name: "Dress",
+                product: "dForce Tabatha Dress for Genesis 8 and 8.1 Female",
+                link: "https://www.daz3d.com/dforce-tabatha-dress-for-genesis-8-and-81-female"
+            }]
         }, {
             year: '2025',
             description: "Go full speed ahead into Y2K festival style with this high-octane athleisure set. The look pairs a cropped, zip-up royal blue speed-jacket with matching high-cut shorts, both framed by signature black-and-white checkered trim. Take the outfit to the extreme with metallic blue thigh-high boots and retro-rim frames.",
@@ -922,17 +926,37 @@ export const characters: Character[] = [
             //     year: '2021',
             //     description: "",
             //     image: '/characters/years/2021/Peppi.jpg',
-            //     clothes: []
+            //     clothes: [{
+            //     name: "Suit",
+            //     product: "COG SciFi Suit for Genesis 8 Female(s)",
+            //     link: "https://www.daz3d.com/cog-scifi-suit-for-genesis-8-females"
+            // }]
             // }, {
             year: '2022',
             description: "",
             image: '/characters/years/2022/Peppi.jpg',
-            clothes: []
+            clothes: [{
+                name: "Corset",
+                product: "Mystique for Genesis 8 Female(s)",
+                link: "https://www.daz3d.com/mystique-for-genesis-8-females"
+            }, {
+                name: "Leggings",
+                product: "Glamour Legging G8F",
+                link: "https://www.renderosity.com/marketplace/products/145321/glamour-legging-g8f"
+            }]
         }, {
             year: '2022.2',
             description: "",
             image: '/characters/years/2022/Peppi2.jpg',
-            clothes: []
+            clothes: [{
+                name: "Corset",
+                product: "Badazz Babes Bodyglove Set",
+                link: "https://www.renderosity.com/marketplace/products/136911/badazz-babes-bodyglove-set"
+            }, {
+                name: "Top, trousers, and shoes",
+                product: "dForce CB Lola Clothing Set for Genesis 8 and 8.1 Females",
+                link: "https://www.daz3d.com/-dforce-cb-lola-clothing-set-for-genesis-8-and-81-females"
+            }]
         }, {
             //     year: '2023',
             //     description: "",
@@ -942,7 +966,11 @@ export const characters: Character[] = [
             year: '2024',
             description: "",
             image: '/characters/years/2024/Peppi.jpg',
-            clothes: []
+            clothes: [{
+                name: "Top and trousers",
+                product: "dForce Fancy Pants Outfit Bundle for Genesis 8 and 8.1 Females",
+                link: "https://www.daz3d.com/dforce-fancy-pants-outfit-bundle-for-genesis-8--81-females"
+            }]
         }, {
             //     year: '2025',
             //     description: "",
@@ -952,7 +980,15 @@ export const characters: Character[] = [
             year: '2026',
             description: "",
             image: '/characters/years/2026/Peppi.jpg',
-            clothes: []
+            clothes: [{
+                name: "Corset",
+                product: "Badazz Babes Bodyglove Set",
+                link: "https://www.renderosity.com/marketplace/products/136911/badazz-babes-bodyglove-set"
+            }, {
+                name: "Skirt and stockings",
+                product: "dForce Emo Doll Outfit for Genesis 8 Females",
+                link: "https://www.renderosity.com/marketplace/products/151548/dforce-emo-doll-outfit-for-genesis-8-females"
+            }]
         }]
     },
     {
@@ -969,7 +1005,12 @@ export const characters: Character[] = [
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Usu.jpg',
         thumbnail: '/characters/main/Usu.jpg',
-        years: []
+        years: [{
+            year: 'Peppi and the Pre Drops (2022)',
+            description: "",
+            image: '/characters/years/2022/Usu.jpg',
+            clothes: []
+        }]
     },
     {
         id: 'char05',
@@ -1001,7 +1042,12 @@ export const characters: Character[] = [
         description: 'Guest of Peppi and the Pre Drops.',
         image: '/characters/main/Dashing Purple One.jpg',
         thumbnail: '/characters/main/Dashing Purple One.jpg',
-        years: []
+        years: [{
+            year: 'Peppi and the Pre Drops (2022)',
+            description: "",
+            image: '/characters/years/2022/DPO.jpg',
+            clothes: []
+        }]
     },
     {
         id: 'char09',

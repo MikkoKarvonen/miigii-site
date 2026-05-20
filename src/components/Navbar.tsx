@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
 const navItems = [
-    { label: 'About', hash: 'about' },
     { label: 'Albums', hash: 'albums' },
     { label: "EP's", hash: 'eps' },
     { label: 'Singles', hash: 'singles' },
