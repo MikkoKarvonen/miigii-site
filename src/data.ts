@@ -1,4 +1,4 @@
-import type { Release, Character } from './types';
+import type { Release, Character, ArtistAbout } from './types';
 
 export const releases: Release[] = [
     {
@@ -12,7 +12,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/3NZe4vDiROZ3GGFM4m6pLR' },
             { platform: 'Apple Music', url: 'https://music.apple.com/album/example' },
-            { platform: 'Bandcamp', url: 'https://miigii.bandcamp.com/album/midnight-dreams' },
+            { platform: 'Bandcamp', url: 'https://Miigii.bandcamp.com/album/midnight-dreams' },
             { platform: 'YouTube Music', url: 'https://music.youtube.com/playlist?list=example' },
         ],
     }, {
@@ -379,7 +379,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/63PjjU5bJ9Cmaukvkka4aU' },
         ],
-        characterIds: ['char01', 'char02']
+        characterIds: ['char02', 'char03']
     },
     {
         id: '137',
@@ -405,7 +405,7 @@ export const releases: Release[] = [
         streamingLinks: [
             { platform: 'Spotify', url: 'https://open.spotify.com/album/70CmmoNro3YEmsGhsemiG4' },
         ],
-        characterIds: ['char01', 'char02']
+        characterIds: ['char02', 'char03']
     },
     {
         id: '035',
@@ -1067,4 +1067,23 @@ export const characters: Character[] = [
         years: []
     },
 ];
+
+export const artistAbout: ArtistAbout = {
+    image: '/general/miigii.jpg',
+    title: 'About Miigii',
+    intro: [
+        'Miigii is the sound of the digital frontier—a high-velocity blend of hyperpop, electronic dance, and experimental club music designed for the internet age.',
+        'Based in the intersection of fast-paced rhythms and digital-first culture, Miigii has become a prolific force in the independent music scene. Since breaking out with a relentless string of singles, the project has defined itself through a signature "choose your own adventure" listening experience, frequently releasing tracks in Standard, Sped Up, and Slowed + Reverb versions to match every mood and platform.',
+    ],
+    sections: [
+        {
+            title: 'The Sound',
+            body: 'Drawing inspiration from the frantic energy of Eurodance and the glitchy textures of modern hyperpop, Miigii’s production is characterized by heavy basslines, pitched-up vocals, and infectious, repetitive hooks. Whether it\'s the driving energy of the 2025 album LAST DRIFT or the viral-ready hooks of 2026\'s Brain Rot, the music is built for high-energy consumption.',
+        },
+        {
+            title: 'The Vision',
+            body: 'Miigii isn\'t just about the music; it\'s about the speed of now. By blurring the lines between genres and embracing the "remix culture" of social media, Miigii continues to push the boundaries of how independent artists connect with a global, digital audience.',
+        },
+    ],
+};
 

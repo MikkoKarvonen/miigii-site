@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 const navItems = [
+    { label: 'About', hash: 'about' },
     { label: 'Albums', hash: 'albums' },
     { label: "EP's", hash: 'eps' },
     { label: 'Singles', hash: 'singles' },
@@ -35,19 +36,11 @@ export default function Navbar() {
             </div>
             <nav className="flex-none">
                 <ul className="menu menu-horizontal gap-1 px-0">
-                    {navItems.map(item =>
-                        'hash' in item ? (
-                            <li key={item.hash}>
-                                <NavHashLink hash={item.hash}>{item.label}</NavHashLink>
-                            </li>
-                        ) : (
-                            <li key={item.to}>
-                                <Link to={item.to} className="btn btn-ghost btn-sm">
-                                    {item.label}
-                                </Link>
-                            </li>
-                        )
-                    )}
+                    {navItems.map(item => (
+                        <li key={item.hash}>
+                            <NavHashLink hash={item.hash}>{item.label}</NavHashLink>
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>

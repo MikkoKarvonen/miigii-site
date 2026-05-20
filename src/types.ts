@@ -39,3 +39,15 @@ export interface Character {
     years: CharacterYear[]
 }
 
+export interface ArtistAboutSection {
+    title: string;
+    body: string;
+}
+
+export interface ArtistAbout {
+    image: string;
+    title: string;
+    intro: string[];
+    sections: ArtistAboutSection[];
+}
+
