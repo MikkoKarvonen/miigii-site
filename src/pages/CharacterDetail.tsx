@@ -81,16 +81,16 @@ export default function CharacterDetail() {
             <div className="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none" />
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-                <Link
-                    to="/"
-                    className="inline-flex items-center gap-2 text-sm text-base-content/60 hover:text-primary transition-colors mb-10"
-                >
-                    <span aria-hidden>←</span>
-                    Back to Home
-                </Link>
-
                 {/* Hero */}
                 <header className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start mb-16 lg:mb-24">
+                    <Link
+                        to="/"
+                        className="col-span-full inline-flex items-center gap-2 text-sm text-base-content/60 hover:text-primary transition-colors"
+                    >
+                        <span aria-hidden>←</span>
+                        Back to Home
+                    </Link>
+
                     <CharacterImage src={character.image} alt={character.name} square />
 
                     <div className="lg:pt-4">

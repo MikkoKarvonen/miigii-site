@@ -34,7 +34,7 @@ export default function Home() {
 
                     {/* Albums */}
                     {albums.length > 0 && (
-                        <div className="mb-8">
+                        <div id="albums" className="mb-8 scroll-mt-20">
                             <h3 className="text-2xl font-semibold mb-4">Albums</h3>
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {albums.map(release => (
@@ -46,7 +46,7 @@ export default function Home() {
 
                     {/* EPs */}
                     {eps.length > 0 && (
-                        <div className="mb-8">
+                        <div id="eps" className="mb-8 scroll-mt-20">
                             <h3 className="text-2xl font-semibold mb-4">EPs</h3>
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {eps.map(release => (
@@ -58,7 +58,7 @@ export default function Home() {
 
                     {/* Singles */}
                     {singles.length > 0 && (
-                        <div className="mb-8">
+                        <div id="singles" className="mb-8 scroll-mt-20">
                             <h3 className="text-2xl font-semibold mb-4">Singles</h3>
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {singles.map(release => (
@@ -70,7 +70,7 @@ export default function Home() {
                 </section>
 
                 {/* Characters Section */}
-                <section>
+                <section id="characters" className="scroll-mt-20">
                     <h2 className="text-3xl font-bold mb-6">Characters</h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                         {characters.map(character => (
