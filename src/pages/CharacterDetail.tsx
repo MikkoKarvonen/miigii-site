@@ -83,14 +83,6 @@ export default function CharacterDetail() {
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
                 {/* Hero */}
                 <header className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start mb-16 lg:mb-24">
-                    <Link
-                        to="/"
-                        className="col-span-full inline-flex items-center gap-2 text-sm text-base-content/60 hover:text-primary transition-colors"
-                    >
-                        <span aria-hidden>←</span>
-                        Back to Home
-                    </Link>
-
                     <CharacterImage src={character.image} alt={character.name} square />
 
                     <div className="lg:pt-4">
